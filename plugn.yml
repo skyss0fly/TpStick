@@ -1,0 +1,17 @@
+name: TpSick
+version: 1.0.0
+main: skyss0fly\TpStick\Main
+api: 5.0.0
+author: skyss0fly
+commands:
+  tpstick:
+    description: Get a teleporter stick
+    permission: TpStick.command
+
+permissions:
+  TpStick.command:
+    description: Recieve a Tpstick
+    default: op
+  TpStick.use:
+    description: use a Tpstick 
+    default: op
